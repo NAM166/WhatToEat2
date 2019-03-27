@@ -33,5 +33,6 @@ namespace WhatToEat.Models
         }
 
         public DbSet<Section> Sections { get; set; }
+        public DbSet<ItemType> ItemTypes { get; set; }
     }
 }
